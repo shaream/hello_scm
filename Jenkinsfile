@@ -1,9 +1,9 @@
 node {
     stage('ハローワールド') {
-        sh 'echo "Hello World!!!!???!!!?????"'
+        sh 'echo "Hello World!!!!!!!?????"'
     }
     stage('gitをクローン') {
-        git('https://jenkins.endcyclone.com/jenkins/github-webhook/')
+        git('https://github.com/Endcyclone/hello-scm-test.git')
     }
     stage('ファイル確認') {
         sh 'ls -l'
