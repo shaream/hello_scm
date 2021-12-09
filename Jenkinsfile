@@ -3,7 +3,7 @@ node {
         sh 'echo "Hello World!!!!???!!!?????"'
     }
     stage('gitをクローン') {
-        git('https://github.com/Endcyclone/hello-scm-test.git')
+        git('https://jenkins.endcyclone.com/jenkins/github-webhook/')
     }
     stage('ファイル確認') {
         sh 'ls -l'
