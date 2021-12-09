@@ -1,6 +1,6 @@
 node {
     stage('ハローワールド') {
-        sh 'echo "Hello World!!!!!!!?????"'
+        sh 'echo "Hello World!!!!???!!!?????"'
     }
     stage('gitをクローン') {
         git('https://github.com/Endcyclone/hello-scm-test.git')
